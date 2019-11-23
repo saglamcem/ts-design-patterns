@@ -16,7 +16,7 @@ export class NewTypescriptTest {
         x: true,
         y: false,
       }
-    }
+    };
 
     if (obj?.field?.z?.inner) {
       console.log(obj.field.z.inner);

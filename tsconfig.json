@@ -6,11 +6,15 @@
     "moduleResolution": "node",
     "strict": true,
     "jsx": "react",
-    "allowJs": true,
+    "allowJs": false,
     "sourceMap": true,
     "inlineSources": true,
     "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true
-  }
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
 }

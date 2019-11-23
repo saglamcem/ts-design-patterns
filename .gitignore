@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# For this project no reason to push js files
+*.js
+
 # compiled output
 /dist
 /tmp
