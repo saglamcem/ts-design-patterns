@@ -1,0 +1,6 @@
+{
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "3.7.2"
+  }
+}
