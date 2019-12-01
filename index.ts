@@ -2,6 +2,7 @@ import { NewTypescriptTest } from './0-new-ts-test';
 import { FactoryPatternExample } from './1-factory-pattern-ts';
 import { SingletonPatternExample } from './2-singleton-pattern-ts';
 import { StrategyPatternExample } from "./3-strategy-pattern-ts";
+import { IteratorPatternExample } from "./4-iterator-pattern-ts";
 
 
 // const newTypescriptTest = new NewTypescriptTest();
@@ -13,5 +14,8 @@ import { StrategyPatternExample } from "./3-strategy-pattern-ts";
 // const patternExample = new SingletonPatternExample();
 // patternExample.run();
 
-const patternExample = new StrategyPatternExample();
+// const patternExample = new StrategyPatternExample();
+// patternExample.run();
+
+const patternExample = new IteratorPatternExample();
 patternExample.run();
